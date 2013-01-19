@@ -1,0 +1,368 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			Blank
+	Based on style:		subSilver (the default phpBB 2.0.x style)
+	Original author:	James Traver ( github.com/code-for-coffee )
+    --------------------------------------------------------------
+*/
+
+/* Layout
+ ------------ */
+* {
+}
+
+html {
+}
+
+body {
+}
+
+#wrapheader {
+}
+
+#wrapcentre {
+}
+
+#wrapfooter {
+}
+
+#wrapnav {
+}
+
+#logodesc {
+}
+
+#menubar {
+}
+
+#datebar {
+}
+
+#findbar {
+}
+
+.forumrules {
+}
+
+.forumrules h3 {
+}
+
+#pageheader { }
+#pagecontent { }
+#pagefooter { }
+
+#poll { }
+#postrow { }
+#postdata { }
+
+
+/*  Text
+ --------------------- */
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+p {
+}
+
+p.moderators {
+}
+
+.rtl p.moderators {
+}
+
+p.linkmcp {
+}
+
+.rtl p.linkmcp {
+}
+
+p.breadcrumbs {
+}
+
+.rtl p.breadcrumbs {
+}
+
+p.datetime {
+}
+
+.rtl p.datetime {
+}
+
+p.searchbar {
+} 
+
+p.searchbarreg {
+}
+
+.rtl p.searchbarreg {
+}
+
+p.forumdesc {
+}
+
+p.topicauthor {
+}
+
+p.topicdetails {
+}
+
+.postreported, .postreported a:link, .postreported a:visited, .postreported a:hover, .postreported a:active {
+}
+
+.postapprove, .postapprove a:link, .postapprove a:visited, .postapprove a:hover, .postapprove a:active {
+}
+
+.postapprove img, .postreported img {
+}
+
+.postauthor {
+}
+
+.postdetails {
+}
+
+.postbody {
+}
+
+.postbody li, ol, ul {
+}
+
+.rtl .postbody li, .rtl ol, .rtl ul {
+}
+
+.posthilit {
+}
+
+.nav {
+}
+
+.pagination {
+}
+
+.cattitle {
+}
+
+.gen {
+}
+
+.genmed {
+}
+
+.gensmall {
+}
+
+.copyright {
+}
+
+.titles {
+}
+
+.error {
+}
+
+
+/* Tables
+ ------------ */
+th {
+}
+
+td {
+}
+
+td.profile {
+}
+
+.tablebg {
+}
+
+.catdiv {
+}
+.rtl .catdiv {
+}
+
+.cat {
+}
+
+.row1 {
+}
+
+.row2 {
+}
+
+.row3 {
+}
+
+.spacer {
+}
+
+hr {
+}
+
+.legend {
+}
+
+/* Links
+ ------------ */
+
+/* Links adjustment to correctly display an order of rtl/ltr mixed content */
+.rtl a {
+}
+
+/* CSS spec requires a:link, a:visited, a:hover and a:active rules to be specified in this order. */
+/* See http://www.phpbb.com/bugs/phpbb3/59685 */
+a:link {
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+a.forumlink {
+}
+
+a.topictitle {
+}
+
+a.topictitle:visited {
+}
+
+th a,
+th a:visited {
+}
+
+th a:hover {
+}
+
+
+/* Form Elements
+ ------------ */
+form {
+}
+
+input {
+}
+
+textarea {
+}
+
+select {
+}
+
+option {
+}
+
+option.disabled-option {
+}
+
+.rtl option {
+}
+
+input.radio {
+}
+
+.post {
+}
+
+.btnbbcode {
+}
+
+.btnmain {
+}
+
+.btnlite {
+}
+
+.btnfile {
+}
+
+.helpline {
+}
+
+
+/* BBCode
+ ------------ */
+.quotetitle, .attachtitle {
+}
+
+.quotetitle .quotetitle {
+}
+
+.quotecontent, .attachcontent {
+}
+
+.attachcontent {
+}
+
+.codetitle {
+}
+
+.codecontent {
+}
+
+.syntaxbg {
+}
+
+.syntaxcomment {
+}
+
+.syntaxdefault {
+}
+
+.syntaxhtml {
+}
+
+.syntaxkeyword {
+}
+
+.syntaxstring {
+}
+
+
+/* Private messages
+ ------------------ */
+.pm_marked_colour {
+}
+
+.pm_replied_colour {
+}
+
+.pm_friend_colour {
+}
+
+.pm_foe_colour {
+}
+
+
+/* Misc
+ ------------ */
+img {
+}
+
+.sep {
+}
+
+table.colortable td {
+}
+
+pre {
+}
+
+.nowrap {
+}
+
+.username-coloured {
+}

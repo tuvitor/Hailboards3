@@ -1,0 +1,12 @@
+	{L_CONFIRM_CODE}
+	
+	<!-- IF S_TYPE == 1 -->
+	{L_CONFIRM_EXPLAIN}
+	<!-- ENDIF -->	
+	<img src="{CONFIRM_IMAGE_LINK}" alt="{L_CONFIRM_CODE}" />
+		<input type="hidden" name="confirm_id" id="confirm_id" value="{CONFIRM_ID}" />
+
+	{L_CONFIRM_CODE} {L_CONFIRM_CODE_EXPLAIN}
+		<input class="post" type="text" name="confirm_code" size="8" maxlength="8"<!-- IF $CAPTCHA_TAB_INDEX --> tabindex="{$CAPTCHA_TAB_INDEX}"<!-- ENDIF --> />
+		<!-- IF S_CONFIRM_REFRESH --><input type="submit" name="refresh_vc" id="refresh_vc" class="btnlite" value="{L_VC_REFRESH}" /><!-- ENDIF -->
+	
